@@ -10,13 +10,15 @@
     "test": "jest",
     "test_verbose": "jest --verbose",
     "test_coverage": "jest --coverage",
-    "test_clear" : "jest --clearCache",
+    "test_clear": "jest --clearCache",
     "test:cov": "jest --coverage",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-keycloak/web": "^3.4.0",
     "axios": "^1.7.5",
     "bootstrap": "^5.3.2",
+    "keycloak-js": "^25.0.4",
     "primeicons": "^6.0.1",
     "primereact": "^9.6.2",
     "react": "^18.3.1",
