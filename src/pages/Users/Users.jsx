@@ -17,7 +17,7 @@ const Users = () => {
   const [selectedUserId, setSelectedUserId] = useState(null);
 
   useEffect(() => {
-    getAllUsers();
+    // getAllUsers();
   }, []);
 
   const getAllUsers = async () => {
